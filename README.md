@@ -2,13 +2,11 @@
 
 An incremental Structure from Motion (SfM) pipeline that reconstructs a sparse 3D point cloud from a sequence of images, recovering both scene geometry and camera trajectory.
 
-### Demo: Kız Kulesi (Maiden's Tower), Istanbul
+### Kız Kulesi (Maiden's Tower), Istanbul
 
-The included dataset consists of photos taken around **Kız Kulesi** — a medieval tower standing on a small islet in the Bosphorus strait in Istanbul, Turkey. Its isolated position and distinctive cylindrical geometry make it a good SfM target: the camera can orbit the subject freely, providing wide baseline coverage from many angles.
+Photos taken around this medieval Bosphorus tower serve as the example dataset — its freestanding position allows the camera to orbit fully, providing the wide-baseline coverage that SfM needs.
 
 <img width="1200" height="630" alt="Kız Kulesi source photo" src="https://github.com/user-attachments/assets/d6f48f8c-e593-481d-9b03-66bec96fd741" />
-
-The pipeline reconstructs the tower as a colored sparse point cloud from these photos alone, with no depth sensor or GPS data.
 
 <img width="949" height="463" alt="Point cloud reconstruction" src="figure_point_cloud.png" />
 
