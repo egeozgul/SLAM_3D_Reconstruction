@@ -68,21 +68,9 @@ Images → SIFT features → Lowe's filter → Essential Matrix (RANSAC)
 
 ## Usage
 
-Open the notebook in Google Colab and provide:
+Open the notebook in Google Colab and run it directly. It will clone the required images into the session and process them automatically. You can also test it with your custom image dataset by providing the link of it in the first cell of the notebook.
 
-- **Intrinsic camera matrix K** — focal lengths and principal point for your camera
-- **Image directory** — a folder of `.jpg` or `.png` images in sequential order
-
-```python
-K = np.array([[fx,  0, cx],
-              [ 0, fy, cy],
-              [ 0,  0,  1]])
-
-img_dir = '/path/to/your/images'
-pose_array = sfm_pipeline(path, img_dir, K, perform_bundle_adjustment=False)
-```
-
-The pipeline outputs a colored sparse point cloud (`sparse_ptcloud1.ply`) and the full array of camera projection matrices.
+The pipeline outputs a colored sparse point cloud (`sparse_ptcloud1_rotated.ply`) and the full array of camera projection matrices.
 
 ---
 
