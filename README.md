@@ -17,7 +17,7 @@ Photos taken around this medieval Bosphorus tower serve as the example dataset â
 
 
 ## Camera Trajecotry
-<img width="850" height="400" alt="Camera trajectory" src="figure_camera_trajectory.png" />
+<img width="850" height="500" alt="Camera trajectory" src="figure_camera_trajectory.png" />
 
 
 ---
