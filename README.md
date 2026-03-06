@@ -6,10 +6,10 @@ An incremental Structure from Motion (SfM) pipeline that reconstructs a sparse 3
 
 Photos taken around this medieval Bosphorus tower serve as the example dataset — its freestanding position allows the camera to orbit fully, providing the wide-baseline coverage that SfM needs.
 
-<img width="1200" height="630" alt="Kız Kulesi source photo" src="https://github.com/user-attachments/assets/d6f48f8c-e593-481d-9b03-66bec96fd741" />
+<img width="800" height="400" alt="Kız Kulesi source photo" src="https://github.com/user-attachments/assets/d6f48f8c-e593-481d-9b03-66bec96fd741" />
 
 <img width="949" height="463" alt="Point cloud reconstruction" src="figure_point_cloud.png" />
-<img width="949" height="463" alt="kizKulesi" src="https://github.com/user-attachments/assets/26d35f98-d2c4-4ef0-88b5-ab74054397ab" />
+<img width="800" height="400" alt="kizKulesi" src="https://github.com/user-attachments/assets/26d35f98-d2c4-4ef0-88b5-ab74054397ab" />
 
 <h3><a href="https://sketchfab.com/models/60328445b7d74ce6aa12ab92feb87c8f/embed?autospin=1&autostart=1&camera=0&ui_hint=0&dnt=1">→ Interactive 3D View on Sketchfab</a></h1>
 
